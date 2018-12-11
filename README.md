@@ -9,4 +9,4 @@ Ce répertoire Github regroupe les projet en groupe du MASTER RIE de 1 année
 
 ### À l'attention des commiteurs : 
 
-**Merci de mettre des messages de comit explicite** 
+**Merci de mettre des messages de commit explicite** 
