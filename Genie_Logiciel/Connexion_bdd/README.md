@@ -28,7 +28,7 @@ Qu'est-ce que le compte rendu de tp ?
 # Utilisation du programme
 
 - Cloner le projet
-- Exécuter le fichier SQL dans votre base de donnée (surment l'exécuter 2 fois , cf commentaire dans le fichier)
+- Exécuter le fichier SQL (Create_bdd_and_insert.sql) dans votre base de donnée (surment l'exécuter 2 fois , cf commentaire dans le fichier)
 - Rechercher le driver correspondant à la version de votre base de donnée (de préférence MySQL) et le télécharger
 - importer le driver dans le projet (si vous utilisez un IDE, mettez le driver dans le dossier librairies)
 - modifier le fichier Programme/src/com/jdbc/ConnectDatabase.java avec le bon nom de driver et les bons champs de connexion à la base de donnée
