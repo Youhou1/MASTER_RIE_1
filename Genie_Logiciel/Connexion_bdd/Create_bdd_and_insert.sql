@@ -1,13 +1,15 @@
 /*
 database : javadb
-user : user
+user : username
 pass : password
+si javadb déjà existant, supprimer cette base de donnée.
+Il faut surment importer deux fois ce fichier (1 pour créer la base , 2 pour ajouter la table)
 */
 
 
 CREATE DATABASE javadb DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON javadb.* TO 'user'@'localhost' IDENTIFIED BY 'password';
 
 CREATE TABLE  users (
