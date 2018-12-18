@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class UsersController {
+
     private UsersController() {
     }
 
@@ -27,18 +28,18 @@ public class UsersController {
     }
 
 
-    public static List<Users> Lister_les_proprietaires() {
-        List<Users> liste_des_proprietaires = new ArrayList<>();
+    public static List<Users> Lister_les_users() {
+        List<Users> Lister_les_users = new ArrayList<>();
         String selectAll;
-        selectAll = "SELECT prenom, nom, date_de_naissance FROM javadb.users";
+        selectAll = "SELECT prenom, nom, date_de_naissance FROM javadb.users ORDER BY nom";
         UsersMapper um = new UsersMapper();
         try {
-            liste_des_proprietaires = um.transformObject(ConnectDatabase.getInstance().query(selectAll));
+            Lister_les_users = um.transformObject(ConnectDatabase.getInstance().query(selectAll));
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
 
-        return liste_des_proprietaires;
+        return Lister_les_users;
     }
 
 

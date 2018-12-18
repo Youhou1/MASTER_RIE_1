@@ -11,8 +11,8 @@ import java.util.Properties;
 public class ConnectDatabase {
         // init database constants
         private static final String DATABASE_DRIVER = "com.mysql.cj.jdbc.Driver";
-        private static final String DATABASE_URL = "jdbc:mysql://192.168.122.180:3306/javadb";
-        private static final String USERNAME = "user";
+        private static final String DATABASE_URL = "jdbc:mysql://192.168.122.180:3306/javadb?";
+        private static final String USERNAME = "username";
         private static final String PASSWORD = "password";
 
         // init connection object
@@ -63,6 +63,7 @@ public class ConnectDatabase {
      * @return l'objet de connexion
      */
     public Connection connect() {
+        Properties properties = getProperties();
         if (connection == null) {
             try {
                 Class.forName(DATABASE_DRIVER);
@@ -71,7 +72,6 @@ public class ConnectDatabase {
                 e.printStackTrace();
             }
         }
-        System.out.println("Connecté à la BDD");
         return connection;
     }
 
@@ -98,9 +98,10 @@ public class ConnectDatabase {
 
     public ResultSet query(String query) throws SQLException{
         // Connexion à la base
-        this.connect();
+        Connection connect = this.connect();
         statement = instance.connection.createStatement();
         ResultSet res = statement.executeQuery(query);
+
         return res;
     }
 

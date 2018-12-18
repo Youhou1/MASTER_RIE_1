@@ -1,13 +1,11 @@
 package com.main;
 
-
-import com.view.UserView;
+import com.view.UserViews;
 
 public class Main {
 
     public static void main(String[] args) {
-        UserView uv = new UserView();
+        UserViews uv = new UserViews();
         uv.setVisible(true);
-
     }
 }
