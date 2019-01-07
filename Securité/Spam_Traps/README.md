@@ -19,4 +19,5 @@ the IP addresses of spam senders belong to hosting providers (compromised server
 or rented machine), or to an IP address from Internet Service Provider indicating a
 compromised end host. They should crosscheck with the existing databases if the
 source IP addresses of spam senders are already recognized as malicious (e.g.:
-https://www.abuseipdb.com) and if the domains appearing
+https://www.abuseipdb.com) and if the domains appearing in the content of emails
+are already blacklisted (e.g.: https://www.virustotal.com).
