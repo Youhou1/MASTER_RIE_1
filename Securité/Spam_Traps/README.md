@@ -1,8 +1,7 @@
 # Projet
 
 
-One of the most important parts of the course is the project. It will be carried in groups of
-3-4 students. You can select one of the following project proposals:
+One of the most important parts of the course is the project.
 
 ## Description
 **Spam trap (4 persons)**. Students will select one of the available implementations of
