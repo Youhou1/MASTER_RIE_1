@@ -1,11 +1,10 @@
 # Projet
 
-À faire : (binome/trinome)
 
 One of the most important parts of the course is the project. It will be carried in groups of
 3-4 students. You can select one of the following project proposals:
 
-## 1.
+## Description
 **Spam trap (4 persons)**. Students will select one of the available implementations of
 a mail spam trap, deploy it, and analyze the incoming traffic. They need to register a
 free (or cheap) domain name and create a working email address. They should
@@ -20,4 +19,5 @@ the IP addresses of spam senders belong to hosting providers (compromised server
 or rented machine), or to an IP address from Internet Service Provider indicating a
 compromised end host. They should crosscheck with the existing databases if the
 source IP addresses of spam senders are already recognized as malicious (e.g.:
-https://www.abuseipdb.com) and if the domains appearing
+https://www.abuseipdb.com) and if the domains appearing in the content of emails
+are already blacklisted (e.g.: https://www.virustotal.com).
