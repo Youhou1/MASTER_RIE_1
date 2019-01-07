@@ -1,11 +1,10 @@
 # Projet
 
-À faire : (binome/trinome)
 
 One of the most important parts of the course is the project. It will be carried in groups of
 3-4 students. You can select one of the following project proposals:
 
-## 1.
+## Description
 **Spam trap (4 persons)**. Students will select one of the available implementations of
 a mail spam trap, deploy it, and analyze the incoming traffic. They need to register a
 free (or cheap) domain name and create a working email address. They should
