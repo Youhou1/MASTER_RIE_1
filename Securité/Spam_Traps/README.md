@@ -21,7 +21,3 @@ source IP addresses of spam senders are already recognized as malicious (e.g.:
 https://www.abuseipdb.com) and if the domains appearing in the content of emails
 are already blacklisted (e.g.: https://www.virustotal.com).
 
-
-
-### Nom de domaine : 
-http://spamtrap.yauloc.ovh/
